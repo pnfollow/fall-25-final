@@ -1,0 +1,221 @@
+@charset "utf-8";
+.links {
+  background-color: black;
+  color: wheat;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.content {
+  background-color: black;
+  color: wheat;
+	border: 2px solid black;
+  margin: 50px;
+  padding: 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.flex-container {
+  display: flex;
+  background-color: black;
+	justify-content: center;
+}
+
+.flex-container > div {
+  background-color: wheat;
+	align-items: center;
+  margin: 30px;
+  padding: 30px;
+	text-align: center;
+  line-height: 60px;
+  font-size: auto;
+}
+
+.nebula {
+  display: flex;
+  background-color: black;
+	justify-content: center;
+}
+
+.nebula > div {
+  background-color: wheat;
+	align-items: center;
+  margin: 30px;
+  padding: 30px;
+	text-align: center;
+  line-height: 60px;
+  font-size: auto;
+}
+
+.galaxy {
+  display: flex;
+  background-color: black;
+	justify-content: center;
+}
+
+.galaxy > div {
+  background-color: wheat;
+	align-items: center;
+  margin: 30px;
+  padding: 30px;
+	text-align: center;
+  line-height: 60px;
+  font-size: auto;
+}
+
+.planet {
+  display: flex;
+  background-color: black;
+	justify-content: center;
+}
+
+.planet > div {
+  background-color: wheat;
+	align-items: center;
+  margin: 30px;
+  padding: 30px;
+	text-align: center;
+  line-height: 60px;
+  font-size: auto;
+}
+
+.star {
+  display: flex;
+  background-color: black;
+	justify-content: center;
+}
+
+.star > div {
+  background-color: wheat;
+	align-items: center;
+  margin: 30px;
+  padding: 30px;
+	text-align: center;
+  line-height: 60px;
+  font-size: auto;
+}
+
+.nebulae {
+  background-color: black;
+  color: wheat;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+		.myOL {
+  background-color: black;
+  color: wheat;
+	border: 2px solid black;
+  margin: 20px;
+  padding: 5px;
+	display: inline-block;
+			text-align: center
+	
+		
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+.list {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+		 
+		#myHeader {
+  background-color: black;
+  color: wheat;
+  padding: 5px;
+  text-align: center;
+} 
+			h1{
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;}
+		h2{
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;}
+		h3{ 
+			font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+		p{ font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;}
+		li{ font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;}
+		h5{font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+	* {
+  box-sizing: border-box;
+}
+.links {
+  overflow: hidden;
+  background-color: #212131;
+}
+
+.links a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  background-color: #49496C;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+	.links {
+    float: none;
+    width: 100%;
+  }
+}
+
+.active {
+    cursor: pointer;
+    user-select: none;
+}
+
+.closed {
+    display: none;
+}
+
+.open {
+    display: none;
+}
+
+.active {
+    display: block;
+}
